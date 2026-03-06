@@ -29,12 +29,59 @@ ECTROXClaw is the next-generation autonomous AI agent framework built in **Rust*
 - **Organism** - A living digital entity, not just a tool
 - **X** - Unlimited potential for growth
 
+> "The First Truly Autonomous AI Agent - That Pays You"
+
+---
+
+## 🆚 Comparison with Other Claw Frameworks
+
+| Feature | **ECTROXClaw** | OpenClaw | IronClaw | NanoClaw | ZeroClaw |
+|---------|---------------|----------|----------|----------|----------|
+| **Language** | Rust | TypeScript | Rust | TypeScript | Rust |
+| **GitHub Stars** | 🆕 New | 246K+ | 5.5K+ | Growing | 22.2K+ |
+| **Memory Usage** | ~50MB | 394MB-1.5GB | ~100MB | ~50MB | <5MB |
+| **Installation** | One-line | Complex (70+ deps) | One-line | Simple | One-line |
+| **Multi-Agent** | ✅ 8 Agents | ❌ | ✅ Swarms | ✅ Swarms | ✅ |
+| **Auto-Earning** | ✅ AXI Token | ❌ | ❌ | ❌ | ❌ |
+| **Causal Memory** | ✅ Lite | ❌ | ❌ | ❌ | ❌ |
+| **8 Platforms** | ✅ | 15+ | 4+ | 4+ | 15+ |
+| **Windows GUI** | 🚧 Roadmap | ❌ | ✅ | ❌ | ❌ |
+| **Mobile App** | 🚧 Roadmap | ❌ | ❌ | ❌ | ❌ |
+| **Earn Crypto** | ✅ | ❌ | ❌ | ❌ | ❌ |
+
+### Why ECTROXClaw?
+
+**vs OpenClaw (246K⭐)**
+- ✅ Easier installation (one-line vs 70+ dependencies)
+- ✅ Lower memory (~50MB vs 394MB-1.5GB)
+- ✅ Built-in earning (AXI token rewards)
+- ❌ Smaller ecosystem (for now)
+
+**vs IronClaw (5.5K⭐)**
+- ✅ Auto-earning with AXI tokens
+- ✅ Causal memory engine
+- ✅ 8 platforms out-of-box
+- ✅ Better for beginners
+- ❌ IronClaw has better security docs
+
+**vs NanoClaw**
+- ✅ Multi-model support (not just Claude)
+- ✅ More platforms (8 vs 4)
+- ✅ Crypto earning integration
+- ❌ NanoClaw is simpler (500 lines)
+
+**vs ZeroClaw (22.2K⭐)**
+- ✅ Earn crypto while using
+- ✅ Causal memory
+- ✅ Multi-agent collaboration
+- ❌ ZeroClaw is lighter (<5MB)
+
 ---
 
 ## 🚀 Core Features
 
 ### 🤖 Multi-Agent System
-- **Agent Swarm** - Multiple agents working in parallel with tmux + worktree
+- **Agent Swarm** - 8 agents working in parallel with tmux + worktree
 - **Collaborative Intelligence** - Agents share context and coordinate tasks
 - **Auto-scaling** - Dynamically spawn agents based on workload
 
@@ -139,7 +186,7 @@ ectroxclaw wallet balance
 ```
 ECTROXClaw
 ├── Core (Rust)
-│   ├── Agent Swarm Manager
+│   ├── Agent Swarm Manager (8 agents)
 │   ├── Causal Memory Engine
 │   └── Security Sandbox
 ├── Adapters
@@ -152,33 +199,20 @@ ECTROXClaw
 │   └── Task Rewards
 └── UI
     ├── TUI (Terminal)
-    ├── GUI (Desktop - Coming Soon)
+    ├── GUI (Desktop - Roadmap)
     └── Mobile (Roadmap)
 ```
-
----
-
-## 🆚 Comparison
-
-| Feature | ECTROXClaw | OpenClaw | IronClaw |
-|---------|-----------|----------|----------|
-| Language | Rust | TypeScript | Unknown |
-| Installation | One-line | Complex | Unknown |
-| Multi-Agent | ✅ | ❌ | Unknown |
-| Causal Memory | ✅ | ❌ | Unknown |
-| Auto-Earning | ✅ (AXI) | ❌ | Unknown |
-| Mobile Support | 🚧 Roadmap | ❌ | Unknown |
-| Windows GUI | 🚧 Roadmap | ❌ | Unknown |
 
 ---
 
 ## 🗺️ Roadmap
 
 ### Phase 1 (Current) - CLI Core
-- [x] Rust multi-agent framework
+- [x] Rust multi-agent framework (8 agents)
 - [x] 8-platform communication
 - [x] Causal memory (Lite)
 - [x] AXI integration
+- [x] Browser automation
 
 ### Phase 2 (T+2M) - Desktop & Windows
 - [ ] Native Windows support
@@ -213,3 +247,11 @@ MIT License - See [LICENSE](LICENSE) for details.
 <p align="center">
   <img src="https://raw.githubusercontent.com/ECTROX/ECTROXClaw/main/assets/ectrox_logo_small.png" width="50">
 </p>
+
+---
+
+**References:**
+- OpenClaw: https://github.com/openclaw/openclaw (246K⭐)
+- IronClaw: https://github.com/nearai/ironclaw (5.5K⭐)
+- NanoClaw: https://github.com/qwibitai/nanoclaw
+- ZeroClaw: https://github.com/zeroclaw-labs/zeroclaw (22.2K⭐)
